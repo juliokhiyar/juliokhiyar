@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Julio Idam Khiyar</h1>
 <h3 align="center">A passionate Software Engineer from Indonesia</h3>
 
-<img align="right" src="https://github.com/user-attachments/assets/929cf4d0-80e8-414b-ac65-321037f48c13" width="400" />
+<img align="right" src="https://github.com/user-attachments/assets/929cf4d0-80e8-414b-ac65-321037f48c13" width="250" />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=juliokhiyar&label=Profile%20views&color=0e75b6&style=flat" alt="juliokhiyar" /> </p>
 
