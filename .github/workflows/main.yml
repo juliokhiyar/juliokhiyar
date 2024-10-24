@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v3  # Updated to v3
 
       # Generates the snake
-      - uses: Platane/snk@master
+      - uses: Platane/snk@v2  # Pastikan menggunakan versi terbaru
         id: snake-gif
         with:
           github_user_name: juliokhiyar  # Ganti dengan username GitHub kamu
@@ -33,11 +33,12 @@ jobs:
 
       # Push the changes to the output branch
       - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0  # Updated to a specific version
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: output  # Make sure the branch is "output"
-          force: true
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git add dist/*
+          git commit -m "Update snake gif"
+          git push origin output  # Push to the output branch
 
       # Deploy the changes to GitHub Pages (optional step)
       - uses: crazy-max/ghaction-github-pages@v2.1.3
