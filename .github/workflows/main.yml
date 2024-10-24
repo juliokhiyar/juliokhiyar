@@ -7,7 +7,7 @@ on:
     - cron: "0 */6 * * *"
 
   # This command allows us to run the Action manually from the Actions tab.
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 # The sequence of runs in this workflow:
 jobs:
