@@ -1,7 +1,7 @@
 ![CE](https://github.com/user-attachments/assets/b781a42e-ee86-479b-a311-629724320699)
 
 <h1 align="center">Hi 👋, I'm Julio Idam Khiyar</h1>
-<h3 align="center">Computer Engineering Student of Electronic Engineering Polytechnic Institute of Surabaya</h3>
+<h3 align="center">Computer Engineering Student at Electronic Engineering Polytechnic Institute of Surabaya</h3>
 
 <img align="right" src="https://github.com/user-attachments/assets/0d694aa6-4027-4585-bb4b-bf41e97d3d08" width="250" />
 
