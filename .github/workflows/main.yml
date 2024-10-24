@@ -33,7 +33,7 @@ jobs:
 
       # Push the changes to the output branch
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.6.0  # Updated to a specific version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: output  # Make sure the branch is "output"
